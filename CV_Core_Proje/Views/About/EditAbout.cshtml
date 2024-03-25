@@ -1,0 +1,46 @@
+﻿@model EntityLayer.Concrete.About
+@{
+    ViewData["Title"] = "EditAbout";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <form method="post">
+            @Html.HiddenFor(x => x.AboutId)
+
+            <div class="form-group">
+                <label class="form-control-label">Başlık</label>
+                @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Yaş</label>
+                @Html.TextBoxFor(x => x.Age, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Mail</label>
+                @Html.TextBoxFor(x => x.Mail, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Telefon</label>
+                @Html.TextBoxFor(x => x.Phone, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Resim Url</label>
+                @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Adres</label>
+                @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Telefon</label>
+                @Html.TextAreaFor(x => x.Description,10,3, new { @class = "form-control" })
+            </div>
+
+            <button class="btn btn-inverse-primary btn-fw">Güncelle</button>
+        </form>
+
+    </div>
+</div>
+

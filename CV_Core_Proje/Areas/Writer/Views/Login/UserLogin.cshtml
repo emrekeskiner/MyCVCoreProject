@@ -1,0 +1,61 @@
+﻿@model MyCVCore.PresentationLayer.Areas.Writer.Models.UserLoginViewModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="tr">
+
+@await Html.PartialAsync("/Areas/Writer/Views/Default/_HeadPartial.cshtml")
+
+<body>
+    <div class="container-scroller">
+        <div class="container-fluid page-body-wrapper full-page-wrapper">
+            <div class="content-wrapper d-flex align-items-center auth px-0">
+                <div class="row w-100 mx-0">
+                    <div class="col-lg-4 mx-auto">
+                        <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+                            <div class="brand-logo">
+                                <img src="~/Template/skydash/images/logo.svg" alt="logo">
+                            </div>
+                            <h4>Merhaba, Yazar Paneline Hoşgeldiniz</h4>
+                            <h6 class="font-weight-light">Devam etmek için giriş yapın.</h6>
+                            <form class="pt-3" method="post" >
+                                <div class="form-group">
+                                    <input type="text" name="Username" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Kullanıcı Adınız">
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control form-control-lg" name="Password" id="exampleInputPassword1" placeholder="Şifre Giriniz">
+                                </div>
+                                <div class="mt-3">
+                                    <button class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn">Giriş Yap</button>
+                                </div>
+                                <div class="my-2 d-flex justify-content-between align-items-center">
+                                    <div class="form-check">
+                                        <label class="form-check-label text-muted">
+                                            <input type="checkbox" class="form-check-input">
+                                            Beni Hatırla
+                                        </label>
+                                    </div>
+                                    <a href="#" class="auth-link text-black">Şifreni mi unuttun ?</a>
+                                </div>
+                              
+                                <div class="text-center mt-4 font-weight-light">
+                                    Bir Hesabın yok mu ? <a href="/Writer/Register/UserRegister" class="text-primary">Kayıt Ol</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- content-wrapper ends -->
+        </div>
+        <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    @await Html.PartialAsync("/Areas/Writer/Views/Default/_ScriptPartial.cshtml")
+    <!-- endinject -->
+</body>
+
+</html>

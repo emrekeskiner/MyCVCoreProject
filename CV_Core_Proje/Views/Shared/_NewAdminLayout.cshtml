@@ -1,0 +1,43 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+@await Html.PartialAsync("/Views/Admin/PartialHeader.cshtml")
+  <body>
+    <div class="container-scroller">
+      <!-- partial:../../partials/_sidebar.html -->
+        @await Html.PartialAsync("/Views/Admin/NewSidebar.cshtml")
+      <!-- partial -->
+      <div class="container-fluid page-body-wrapper">
+        <!-- partial:../../partials/_navbar.html -->
+            @await Html.PartialAsync("/Views/Admin/PartialNavbar.cshtml")
+        <!-- partial -->
+        <div class="main-panel">
+          <div class="content-wrapper">
+            <div class="page-header">
+                        <h3 class="page-title"> @ViewBag.baslik </h3>
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="@ViewBag.url">@ViewBag.sayfa</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">@ViewBag.baslik</li>
+                </ol>
+              </nav>
+            </div>
+            @* Render Body Metodu *@
+            @RenderBody()
+            
+          </div>
+          <!-- content-wrapper ends -->
+          <!-- partial:../../partials/_footer.html -->
+                @await Html.PartialAsync("/Views/Admin/PartialFooter.cshtml")
+          <!-- partial -->
+        </div>
+        <!-- main-panel ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    @* <script src="~/Template/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/vendors/js/vendor.bundle.base.js"></script> *@
+
+    @await Html.PartialAsync("/Views/Admin/PartialScript.cshtml")
+  </body>
+</html>

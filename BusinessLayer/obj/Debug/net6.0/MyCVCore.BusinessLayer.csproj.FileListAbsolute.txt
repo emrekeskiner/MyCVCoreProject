@@ -1,0 +1,17 @@
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.BusinessLayer.deps.json
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.BusinessLayer.dll
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.BusinessLayer.pdb
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.DataAccessLayer.dll
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.EntityLayer.dll
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.DataAccessLayer.pdb
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\bin\Debug\net6.0\MyCVCore.EntityLayer.pdb
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.AssemblyInfo.cs
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.4037264E.Up2Date
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.dll
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\refint\MyCVCore.BusinessLayer.dll
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.pdb
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\ref\MyCVCore.BusinessLayer.dll

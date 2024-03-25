@@ -1,0 +1,59 @@
+﻿@model EntityLayer.Concrete.Portfolio
+@{
+    ViewData["Title"] = "EditPortfolio";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+    <form method="post">
+        @Html.HiddenFor(x=>x.PortfolioId)
+        <div class="form-group">
+            <label class="form-control-label">Proje Adı</label>
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Platform</label>
+            @Html.TextBoxFor(x => x.Platform, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Maliyeti</label>
+            @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Proje Durumu %</label>
+            @Html.TextBoxFor(x => x.Value, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Küçük Resim Url</label>
+            @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+        </div>
+        <div class="form-group">
+            <label class="form-control-label">Büyük Resim Url</label>
+            @Html.TextBoxFor(x => x.ImageUrl2, new { @class = "form-control" })
+        </div>
+
+            <div class="form-group row">
+                <label class="col-sm-1 col-form-label">Durum</label>
+                <div class="col-sm-2">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            @Html.RadioButtonFor(x => x.Status, "false", new { @class = "form-check-input", id = "membershipRadios1" })
+                            Devam ediyor <i class="input-helper"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            @Html.RadioButtonFor(x => x.Status, "true", new { @class = "form-check-input", id = "membershipRadios2" })
+                            Tamamlandı <i class="input-helper"></i>
+                        </label>
+                    </div>
+                </div>
+            </div>
+              <button class="btn btn-inverse-primary btn-fw">Güncelle</button>
+    </form>
+
+</div>
+</div>
