@@ -258,3 +258,4 @@ C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.P
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.genruntimeconfig.cache
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\ref\MyCVCore.PresentationLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.sourcelink.json

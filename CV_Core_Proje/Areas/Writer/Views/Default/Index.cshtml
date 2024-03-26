@@ -3,7 +3,9 @@
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_WriterLayout.cshtml";
 }
-
+@{
+    string color = "";
+}
 <div class="col-lg-12 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
@@ -20,17 +22,20 @@
                             <th>Tarih</th>
                             <th>Durum</th>
                             <th>İçerik</th>
+                            <th>Detaylar</th>
                         </tr>
                     </thead>
                     <tbody>
                         @foreach (var item in Model)
                         {
+                           //swich case ile statusu renklendir.
                              <tr>
-                            <td>@item.AnnouncementId</td>
+                            <th>@item.AnnouncementId</th>
                             <td>@item.Title</td>
                                 <td>@(((DateTime)item.Date).ToString("dd.MM.yyyy"))</td>
                             <td><label class="badge badge-danger">@item.Status</label></td>
                             <td>@item.Content</td>
+                                <td><a href="/Writer/Default/AnnouncementDetails/@item.AnnouncementId" class="btn btn-outline-primary">Detaylar</a> </td>
                         </tr>
                         }
                        

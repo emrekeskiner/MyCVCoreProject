@@ -18,6 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="Areas\Writer\Views\Dashboard\UserDashboard.cshtml" />
+    <None Include="Areas\Writer\Views\Profile\UserProfile.cshtml" />
     <None Include="wwwroot\Template\skydash\.gitattributes" />
     <None Include="wwwroot\Template\skydash\.gitignore" />
     <None Include="wwwroot\Template\skydash\.git\COMMIT_EDITMSG" />
