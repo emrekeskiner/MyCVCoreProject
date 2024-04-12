@@ -1,10 +1,12 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.DataAccessLayer.EntityFramework;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class AboutController : Controller
     {
         AboutManager aboutManager = new AboutManager(new EfAboutDal());
@@ -12,11 +14,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult EditAbout()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Hakkımda Güncelle";
-            ViewBag.sayfa = "Hakkımda Sayfası";
-            ViewBag.url = "#";
-            //---------------------------------
 
             var values = aboutManager.TGetById(1);
 
@@ -26,11 +23,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpPost]
         public IActionResult EditAbout(About about)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Hakkımda Güncelle";
-            ViewBag.sayfa = "Hakkımda Sayfası";
-            ViewBag.url = "#";
-            //---------------------------------
 
             aboutManager.TUpdate(about);
 

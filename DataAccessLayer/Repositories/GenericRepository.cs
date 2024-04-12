@@ -3,6 +3,7 @@ using MyCVCore.DataAccessLayer.Context;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -16,6 +17,11 @@ namespace MyCVCore.DataAccessLayer.Repositories
             context.Remove(entity);
             context.SaveChanges();
 
+        }
+
+        public List<T> GetByFilter(Expression<Func<T, bool>> filter)
+        {
+           return context.Set<T>().Where(filter).ToList();
         }
 
         public T GetById(int id)

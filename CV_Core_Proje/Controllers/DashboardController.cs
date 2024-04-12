@@ -1,17 +1,13 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class DashboardController : Controller
     {
         public IActionResult DashboardPage()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Dashboard";
-            ViewBag.sayfa = "İstatislik Sayfası";
-            ViewBag.url = "#";
-            //---------------------------------
-
 
             return View();
         }

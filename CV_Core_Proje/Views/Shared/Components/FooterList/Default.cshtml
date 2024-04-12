@@ -1,0 +1,29 @@
+﻿@using EntityLayer.Concrete
+@model List<Feature>
+
+<footer class="pt-4 pb-4 text-center bg-light">
+<div class="container">
+    <div class="my-3">
+        @foreach (var item in Model)
+        {
+            <div class="h5">@item.Name.Substring(4,13)</div>
+                <p>@item.Title</p>
+        }
+        
+        <div class="social-nav">
+            <nav role="navigation">
+                <ul class="nav justify-content-center">
+                    @await Component.InvokeAsync("SocialMediaList")
+                  
+
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <div class="text-small text-secondary">
+        <div class="mb-1">&copy; Emre Keskiner. All rights reserved.</div>
+        <div>
+        </div>
+    </div>
+    </div>
+    </footer>

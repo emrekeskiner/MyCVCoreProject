@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _skillDal.Delete(entity);
         }
 
+        public List<Skill> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Skill TGetById(int id)
         {
             return _skillDal.GetById(id);

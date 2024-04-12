@@ -29,6 +29,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _toDoListDal.Delete(entity);
         }
 
+        public List<ToDoList> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public ToDoList TGetById(int id)
         {
             return _toDoListDal.GetById(id);

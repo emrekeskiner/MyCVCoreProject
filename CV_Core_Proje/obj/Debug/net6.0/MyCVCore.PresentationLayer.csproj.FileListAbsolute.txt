@@ -1,4 +1,13 @@
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.csproj.AssemblyReference.cache
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.AssemblyInfoInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.AssemblyInfo.cs
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.RazorAssemblyInfo.cache
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.RazorAssemblyInfo.cs
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.sourcelink.json
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\appsettings.json
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MyCVCore.PresentationLayer.staticwebassets.runtime.json
@@ -13,6 +22,7 @@ C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\FluentVali
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Humanizer.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MessagePack.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MessagePack.Annotations.dll
+C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.Build.dll
@@ -233,14 +243,6 @@ C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MyCVCore.E
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MyCVCore.BusinessLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MyCVCore.DataAccessLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\MyCVCore.EntityLayer.pdb
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.AssemblyInfoInputs.cache
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.AssemblyInfo.cs
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.csproj.CoreCompileInputs.cache
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.RazorAssemblyInfo.cache
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.RazorAssemblyInfo.cs
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\staticwebassets.build.json
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\staticwebassets\msbuild.MyCVCore.PresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props
@@ -257,5 +259,3 @@ C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\refint\MyC
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.genruntimeconfig.cache
 C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\ref\MyCVCore.PresentationLayer.dll
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\asus\source\repos\CV_Core_Web\CV_Core_Proje\obj\Debug\net6.0\MyCVCore.PresentationLayer.sourcelink.json

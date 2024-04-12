@@ -11,7 +11,7 @@ namespace MyCVCore.PresentationLayer.ViewComponents.Dashboard
         {
             ViewBag.projeSayisi = context.Portfolios.Count();
             ViewBag.hizmetlerSayisi = context.Services.Count();
-            ViewBag.mesajSayisi = context.Messages.Count();
+            ViewBag.mesajSayisi = context.WriterMessages.Count();
             return View();
         }
     }

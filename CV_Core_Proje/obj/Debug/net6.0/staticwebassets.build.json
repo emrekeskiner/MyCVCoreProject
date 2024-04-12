@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "C5fG0mmn49W7l25f4hb1nTcRJ/2QjGzFBh2hs+wCEQM=",
+  "Hash": "WaItJNWFtO3wt1oubj3rCfIx5H1AwcRFqRiD8vTIW0I=",
   "Source": "MyCVCore.PresentationLayer",
   "BasePath": "_content/MyCVCore.PresentationLayer",
   "Mode": "Default",
@@ -19585,6 +19585,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\images\\avatar.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\images\\avatar2.jpg",
+      "SourceId": "MyCVCore.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\",
+      "BasePath": "_content/MyCVCore.PresentationLayer",
+      "RelativePath": "Template/images/avatar2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Template\\images\\avatar2.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\images\\clients\\client1.png",
@@ -54279,6 +54298,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\skydash\\vendors\\x-editable\\bootstrap-editable.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg",
+      "SourceId": "MyCVCore.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\",
+      "BasePath": "_content/MyCVCore.PresentationLayer",
+      "RelativePath": "userimage/74568fd4-9d55-4139-814f-93676264a1a2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\afb3492c-b601-4a3c-9e9e-87010786b398.jpg",
+      "SourceId": "MyCVCore.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\",
+      "BasePath": "_content/MyCVCore.PresentationLayer",
+      "RelativePath": "userimage/afb3492c-b601-4a3c-9e9e-87010786b398.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimage\\afb3492c-b601-4a3c-9e9e-87010786b398.jpg"
     }
   ]
 }

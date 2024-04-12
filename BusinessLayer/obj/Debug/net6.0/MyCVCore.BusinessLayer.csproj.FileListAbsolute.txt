@@ -10,9 +10,9 @@ C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.B
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.AssemblyInfoInputs.cache
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.AssemblyInfo.cs
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.sourcelink.json
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.4037264E.Up2Date
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\refint\MyCVCore.BusinessLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\ref\MyCVCore.BusinessLayer.dll
-C:\Users\asus\source\repos\CV_Core_Web\BusinessLayer\obj\Debug\net6.0\MyCVCore.BusinessLayer.sourcelink.json

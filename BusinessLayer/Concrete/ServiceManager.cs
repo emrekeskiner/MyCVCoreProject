@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _serviceDal.Delete(entity);
         }
 
+        public List<Service> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Service TGetById(int id)
         {
             return _serviceDal.GetById(id);

@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _testimonialDal.Delete(entity);
         }
 
+        public List<Testimonial> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Testimonial TGetById(int id)
         {
             return _testimonialDal.GetById(id);

@@ -1,5 +1,6 @@
 ﻿using Core_Proje.Areas.Writer.Models;
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.EntityLayer.Concrete;
@@ -11,6 +12,8 @@ using System.Threading.Tasks;
 
 namespace Core_Proje.Areas.Writer.Controllers
 {
+    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Writer")]
     [Area("Writer")]
     [Route("Writer/[controller]/[action]")]
     public class ProfileController : Controller
@@ -45,7 +48,7 @@ namespace Core_Proje.Areas.Writer.Controllers
                 var savelocation = resource + "/wwwroot/userimage/" + imagename;
                 var stream = new FileStream(savelocation, FileMode.Create);
                 await p.Picture.CopyToAsync(stream);
-                user.ImageUrl = imagename;
+                user.ImageUrl = "/userimage/"+imagename;
             }
             user.Name = p.Name;
             user.SurName = p.Surname;
@@ -53,9 +56,9 @@ namespace Core_Proje.Areas.Writer.Controllers
             var result = await _userManager.UpdateAsync(user);
             if (result.Succeeded)
             {
-                return RedirectToAction("Index", "Login");
+                return RedirectToAction("Index", "Default", new {area="Writer"});
             }
             return View();
         }
-    }
+    } 
 }

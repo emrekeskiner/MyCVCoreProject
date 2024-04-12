@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace MyCVCore.BusinessLayer.Abstract
 {
-    internal interface IAnnouncementService:IGenericService<Announcement>
+    public interface IAnnouncementService:IGenericService<Announcement>
     {
     }
 }

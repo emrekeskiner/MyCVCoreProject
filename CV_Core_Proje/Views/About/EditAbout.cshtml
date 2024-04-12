@@ -6,6 +6,7 @@
 
 <div class="card">
     <div class="card-body">
+        <h4 class="card-title">Hakkımda Güncelle</h4>
         <form method="post">
             @Html.HiddenFor(x => x.AboutId)
 
@@ -34,7 +35,7 @@
                 @Html.TextBoxFor(x => x.Address, new { @class = "form-control" })
             </div>
             <div class="form-group">
-                <label class="form-control-label">Telefon</label>
+                <label class="form-control-label">Açıklama</label>
                 @Html.TextAreaFor(x => x.Description,10,3, new { @class = "form-control" })
             </div>
 

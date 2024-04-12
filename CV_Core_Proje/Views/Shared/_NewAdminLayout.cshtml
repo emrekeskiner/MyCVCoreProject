@@ -12,19 +12,12 @@
         <!-- partial -->
         <div class="main-panel">
           <div class="content-wrapper">
-            <div class="page-header">
-                        <h3 class="page-title"> @ViewBag.baslik </h3>
-              <nav aria-label="breadcrumb">
-                <ol class="breadcrumb">
-                                <li class="breadcrumb-item"><a href="@ViewBag.url">@ViewBag.sayfa</a></li>
-                                <li class="breadcrumb-item active" aria-current="page">@ViewBag.baslik</li>
-                </ol>
-              </nav>
-            </div>
+            
             @* Render Body Metodu *@
             @RenderBody()
             
           </div>
+          @await RenderSectionAsync("Scripts",required:false)
           <!-- content-wrapper ends -->
           <!-- partial:../../partials/_footer.html -->
                 @await Html.PartialAsync("/Views/Admin/PartialFooter.cshtml")

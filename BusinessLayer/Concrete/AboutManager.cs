@@ -28,7 +28,10 @@ namespace MyCVCore.BusinessLayer.Concrete
             _aboutDal.Delete(entity);
         }
 
-       
+        public List<About> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
 
         public About TGetById(int id)
         {

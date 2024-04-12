@@ -1,0 +1,11 @@
+﻿Yapılacaklar
+
+
+4- Kayıttan sonra otomatik olarak writer yetkisi verilmesi sağlanacak (veritabanı)
+5- Yeni bir Class Ekleyeceğimizde Öncelikle 
+	a) EntityLayer Concrete Kırmına Sınıf eklenir (WriterUser), 
+	b) DataAccessLayer Abstract kısmına interface isim Dal şeklinde data access layer interface i oluşturulur (IWriterUSerDal),IGenericDal<WriterUser> 'interface inden miras alır.
+	c) EntityFramework klasörüne Ef sınıf ismi Dal şeklinde class oluşturulur(EfWriterUserDal), GenericRepository<WriterUser>,IWriterUserDal 'ı miras alır
+6- BusinessLayer (katmanı) Abstract Klasörüne interface isim service (IWriterUserService) seklinde ekleme yapılır ve buradaki interface IGenericService<WriterUser> den miras alır..
+7- BusinessLayer (katmanı)  Concrete kısmına class ismi Manager olarak ekleme yapılır.(WriterUserManager) buradaki Manager sınıfı IWriterUserService si miras alır.
+8- Experience2Controller de Ajax ile güncelleme yapılacak.

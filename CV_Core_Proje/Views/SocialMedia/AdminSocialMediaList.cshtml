@@ -1,0 +1,64 @@
+﻿@model List<SocialMedia>
+@{
+    ViewData["Title"] = "AdminSocialMediaList";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Sosyal Medya Listesi</h4>
+                <div class="table-responsive">
+                    <a href="/SocialMedia/AddSocialMedia/" class="btn btn-inverse-warning"><i class="mdi mdi-file-check btn-icon-prepend"></i>Yeni Sosyal Media</a>
+                    <table class="table">
+                        <thead>
+                            <tr>
+
+                                <th> # </th>
+                                <th> Sosyal Media </th>
+                                <th> Icon </th>
+                                <th> Adress </th>
+                                <th> Durum </th>
+                                <th> Sil </th>
+                                <th> Düzenle </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.SocialMediaId</td>
+                                    <td>
+                                        @item.Name
+                                    </td>
+                                    <td>@item.Icon</td>
+                                    <td>@item.Url</td>
+                                    <td>
+                                        <a href="/SocialMedia/StatusChange/@item.SocialMediaId">
+                                        @if (@item.Status==true)
+                                        {
+                                            <span class="badge badge-success">Açık</span>
+                                        }else
+                                        {
+                                            <span class="badge badge-danger">Kapalı</span>
+                                            }
+                                        </a>
+                                    </td>
+                                    <td scope="row"><a href="/SocialMedia/DeleteSocialMedia/@item.SocialMediaId" class="btn btn-outline-danger"><i class="mdi mdi-delete btn-icon-prepend"></i> Sil</a></td>
+
+
+                                    <td scope="row"><a href="/SocialMedia/EditSocialMedia/@item.SocialMediaId" class="btn btn-outline-info"><i class="mdi mdi-pencil btn-icon-prepend"></i>Düzenle</a></td>
+                                </tr>
+                            }
+
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+

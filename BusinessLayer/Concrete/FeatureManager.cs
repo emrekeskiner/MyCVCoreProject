@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _featureDal.Delete(entity);
         }
 
+        public List<Feature> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Feature TGetById(int id)
         {
             return _featureDal.GetById(id);

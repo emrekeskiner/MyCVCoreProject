@@ -9,5 +9,6 @@ namespace MyCVCore.BusinessLayer.Abstract
 {
     public interface IContactService : IGenericService<Contact>
     {
+        
     }
 }

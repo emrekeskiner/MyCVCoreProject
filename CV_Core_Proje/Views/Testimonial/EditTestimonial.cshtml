@@ -1,0 +1,34 @@
+﻿@model Testimonial
+@{
+    ViewData["Title"] = "EditTestimonial";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Referans Düzenle</h4>
+        <form method="post">
+            @Html.HiddenFor(x => x.TestimonialId)
+            <div class="form-group">
+                <label class="form-control-label">Referans Adı Soyadı</label>
+                @Html.TextBoxFor(x => x.CustomerName, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Firma ve Görevi </label>
+                @Html.TextBoxFor(x => x.Company, new { @class = "form-control"})
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Resim Url</label>
+                @Html.TextBoxFor(x => x.ImageUrl, new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                <label class="form-control-label">Yorumu</label>
+                @Html.TextAreaFor(x => x.Comment, 10, 3, new { @class = "form-control" })
+            </div>
+            <button class="btn btn-inverse-primary btn-fw">Düzenle</button>
+        </form>
+
+    </div>
+
+</div>
+

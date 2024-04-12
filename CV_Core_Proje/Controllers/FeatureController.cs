@@ -1,4 +1,5 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.BusinessLayer.ValidationRules;
@@ -6,6 +7,7 @@ using MyCVCore.DataAccessLayer.EntityFramework;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class FeatureController : Controller
     {
         FeatureManager featureManager = new FeatureManager(new EfFeatureDal());
@@ -13,11 +15,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult EditFeature()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Başlık Güncelle";
-            ViewBag.sayfa = "Başlık Sayfası";
-            ViewBag.url = "#";
-            //---------------------------------
 
             var values = featureManager.TGetById(3);
 
@@ -27,11 +24,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpPost]
         public IActionResult EditFeature(Feature feature)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Başlık Güncelle";
-            ViewBag.sayfa = "Başlık Sayfası";
-            ViewBag.url = "#";
-            //---------------------------------
            
                 featureManager.TUpdate(feature);
 

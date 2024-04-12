@@ -9,10 +9,10 @@ C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.AssemblyInfoInputs.cache
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.AssemblyInfo.cs
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.sourcelink.json
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.81C5537D.Up2Date
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\refint\MyCVCore.DataAccessLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.genruntimeconfig.cache
 C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\ref\MyCVCore.DataAccessLayer.dll
-C:\Users\asus\source\repos\CV_Core_Web\DataAccessLayer\obj\Debug\net6.0\MyCVCore.DataAccessLayer.sourcelink.json

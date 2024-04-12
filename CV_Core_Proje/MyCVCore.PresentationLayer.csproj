@@ -3391,6 +3391,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Writer\Data\" />
+    <Folder Include="wwwroot\userimage\" />
     <Folder Include="wwwroot\Template\skydash\.git\objects\info\" />
     <Folder Include="wwwroot\Template\skydash\.git\objects\pack\" />
     <Folder Include="wwwroot\Template\skydash\.git\refs\tags\" />

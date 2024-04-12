@@ -20,10 +20,15 @@ namespace MyCVCore.BusinessLayer.Concrete
 
         public void TAdd(Announcement entity)
         {
-            throw new NotImplementedException();
+           _announcementDal.Insert(entity);
         }
 
         public void TDelete(Announcement entity)
+        {
+            throw new NotImplementedException();
+        }
+
+        public List<Announcement> TGetByFilter(string p)
         {
             throw new NotImplementedException();
         }

@@ -1,5 +1,6 @@
 ﻿using EntityLayer.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.BusinessLayer.ValidationRules;
@@ -7,17 +8,13 @@ using MyCVCore.DataAccessLayer.EntityFramework;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class PortfolioController : Controller
     {
         PortfolioManager portfolioManager= new PortfolioManager(new EfPortfolioDal());
         public IActionResult PortfolioList()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Proje Listesi";
-            ViewBag.sayfa = "Projeler";
-            ViewBag.url = "/Portfolio/PortfolioList";
-            //---------------------------------
-
+           
             var values = portfolioManager.TGetList();
 
             return View(values);
@@ -26,12 +23,7 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult EditPortfolio(int id)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Proje Güncelle";
-            ViewBag.sayfa = "Projeler";
-            ViewBag.url = "/Portfolio/PortfolioList";
-            //---------------------------------
-
+            
             var values = portfolioManager.TGetById(id);
 
             return View(values);
@@ -40,11 +32,7 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpPost]
         public IActionResult EditPortfolio(Portfolio portfolio)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Proje Güncelle";
-            ViewBag.sayfa = "Projeler";
-            ViewBag.url = "/Portfolio/PortfolioList";
-            //---------------------------------
+           
             PortfolioValidator validations = new PortfolioValidator();
             ValidationResult result = validations.Validate(portfolio);
             if (result.IsValid)
@@ -67,23 +55,13 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult AddPortfolio()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Proje Ekle";
-            ViewBag.sayfa = "Projeler";
-            ViewBag.url = "/Portfolio/PortfolioList";
-            //---------------------------------
+           
             return View();
         }
 
         [HttpPost]
         public IActionResult AddPortfolio(Portfolio portfolio)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Proje Ekle";
-            ViewBag.sayfa = "Projeler";
-            ViewBag.url = "/Portfolio/PortfolioList";
-            //---------------------------------
-
 
             PortfolioValidator validations = new PortfolioValidator();
             ValidationResult results = validations.Validate(portfolio);

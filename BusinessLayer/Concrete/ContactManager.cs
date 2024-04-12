@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _contactDal.Delete(entity);
         }
 
+        public List<Contact> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Contact TGetById(int id)
         {
             return _contactDal.GetById(id);

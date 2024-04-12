@@ -1,13 +1,13 @@
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\bin\Debug\net6.0\MyCVCore.EntityLayer.deps.json
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\bin\Debug\net6.0\MyCVCore.EntityLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\bin\Debug\net6.0\MyCVCore.EntityLayer.pdb
+C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.csproj.AssemblyReference.cache
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.AssemblyInfoInputs.cache
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.AssemblyInfo.cs
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.sourcelink.json
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\refint\MyCVCore.EntityLayer.dll
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.pdb
 C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\ref\MyCVCore.EntityLayer.dll
-C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.csproj.AssemblyReference.cache
-C:\Users\asus\source\repos\CV_Core_Web\EntityLayer\obj\Debug\net6.0\MyCVCore.EntityLayer.sourcelink.json

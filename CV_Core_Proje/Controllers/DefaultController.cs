@@ -1,10 +1,12 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.DataAccessLayer.EntityFramework;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [AllowAnonymous]
     public class DefaultController : Controller
     {
         public IActionResult Index()

@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Identity;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.EntityLayer.Concrete;
 using MyCVCore.PresentationLayer.Areas.Writer.Models;
 
 namespace MyCVCore.PresentationLayer.Areas.Writer.Controllers
 {
+    [AllowAnonymous]
     [Area("Writer")]
     public class RegisterController : Controller
     {
@@ -41,7 +43,7 @@ namespace MyCVCore.PresentationLayer.Areas.Writer.Controllers
                 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("UserLogin", "Login");
+                    return RedirectToAction("UserLogin", "Login", new {Areas="Writer"});
                 }
                 else
                 {

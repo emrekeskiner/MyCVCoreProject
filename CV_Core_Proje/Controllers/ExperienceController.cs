@@ -1,20 +1,18 @@
 ﻿using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.DataAccessLayer.EntityFramework;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
+    [Authorize(Roles ="Admin")]
     public class ExperienceController : Controller
     {
         ExperienceManager experienceManager = new ExperienceManager(new EfExperienceDal());
         public IActionResult ExperienceList()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Deneyim Listesi";
-            ViewBag.sayfa = "Deneyimler";
-            ViewBag.url = "/Experience/ExperienceList";
-            //---------------------------------
+          
 
             var values = experienceManager.TGetList(); 
 
@@ -24,11 +22,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult EditExperience(int id) 
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Deneyim Güncelle";
-            ViewBag.sayfa = "Deneyimler";
-            ViewBag.url = "/Experience/ExperienceList";
-            //---------------------------------
 
             var values = experienceManager.TGetById(id);
 
@@ -38,11 +31,6 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpPost]
         public IActionResult EditExperience(Experience experience)
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Deneyim Güncelle";
-            ViewBag.sayfa = "Deneyimler";
-            ViewBag.url = "/Experience/ExperienceList";
-            //---------------------------------
 
            experienceManager.TUpdate(experience);
 
@@ -52,11 +40,7 @@ namespace MyCVCore.PresentationLayer.Controllers
         [HttpGet]
         public IActionResult AddExperience()
         {
-            //-------Sayfa Başlık işlemleri----
-            ViewBag.baslik = "Deneyim Ekle";
-            ViewBag.sayfa = "Deneyimler";
-            ViewBag.url = "/Experience/ExperienceList";
-            //---------------------------------
+           
             return View();
         }
 

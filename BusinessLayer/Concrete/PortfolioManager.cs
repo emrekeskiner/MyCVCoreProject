@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _portfolioDal.Delete(entity);
         }
 
+        public List<Portfolio> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Portfolio TGetById(int id)
         {
            return _portfolioDal.GetById(id);

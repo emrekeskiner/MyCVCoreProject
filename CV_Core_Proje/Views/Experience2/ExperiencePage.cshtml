@@ -1,0 +1,136 @@
+﻿
+@{
+    ViewData["Title"] = "ExperiencePage";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+        <div class="p-2">
+            <button type="button" id="btngetlistall" class="btn btn-outline-primary">Verileri Getir</button>
+            <button type="button" id="btnadd" class="btn btn-outline-info">Kaydet</button>
+            <button type="button" id="btnid" class="btn btn-outline-info">Id ile getir</button>
+            <button type="button" id="btndelete" class="btn btn-outline-info">Sil</button>
+            <button type="button" id="btnupdate" class="btn btn-outline-info">Güncelle</button>
+        </div>
+        <div class="card-body">
+           
+            <h4 class="card-title">Deneyim Listesi</h4>
+            <div class="table-responsive" id="listexperience">
+                
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="col-md-12">
+    <h4>Ekleme Paneli</h4>
+    <input type="text" class="form-control" id="inpName" placeholder="Deneyim Adı Giriniz" />
+    <input type="text" class="form-control" id="inpDate" placeholder="Tarih Giriniz" />
+</div>
+<br />
+<br />
+<div class="col-md-12">
+    <h4>Silme Paneli</h4>
+    <input type="text" class="form-control" id="inpid" placeholder="Id Giriniz" />
+    <br />
+    <br />
+    <div class="p-2" id="Deletebyid">
+
+    </div>
+</div>
+
+
+@section Scripts
+{
+    <script>
+       
+        $("#btngetlistall").click(function () {
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "Get",
+                url: "/Experience2/ExperienceList/",
+
+                success: function (funk) {
+                    let values = $.parseJSON(funk);
+                    console.log(values);
+
+                    let htmlst = "<table class=table><thead><tr><th>#</th><th>Başlık</th><th>Tarih</th></tr></thead><tbody>";
+                       
+                    $.each(values, (index, value) => {
+                        htmlst += `<tr><td>${value.ExperienceId} </td><td>${value.Name} </td><td>${value.Date} </td></tr>`
+                    });
+
+                    htmlst += "</tbody></table>";
+                    $("#listexperience").html(htmlst);
+                }
+            });
+        });
+
+        $("#btnadd").click(function () {
+            let values = {
+                Name: $("#inpName").val(),
+                Date: $("#inpDate").val()
+            };
+        
+
+         $.ajax({
+            type: "Post",
+            url: "/Experience2/AddExperience/",
+            data: values,
+            success: function (AddFunc) {
+                let result = $.parseJSON(AddFunc);
+                console.log(AddFunc);
+                console.log(result);
+            }
+         });
+      });
+
+         $("#btnid").click(x => {
+            let idx = $("#inpid").val();
+
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "get",
+                url: "/Experience2/GetById/",
+                data: { id: idx },
+                success: function (FindFunc) {
+                    let result = $.parseJSON(FindFunc);
+                    console.log(result);
+                    let htmlstr = "<table class=table><thead><tr><th>#</th><th>Başlık</th><th>Tarih</th></tr></thead><tbody>";
+                    htmlstr += `<tr><td>${result.ExperienceId} </td><td>${result.Name} </td><td>${result.Date} </td></tr>`;
+                        htmlstr += "</tbody></table>";
+                    $("#listexperience").html(htmlstr);
+                    
+                }
+            });
+            
+        });
+
+        $("#btndelete").click(x => {
+            let id = $("#inpid").val();
+
+            $.ajax({
+                contentType: "application/json",
+                dataType: "json",
+                type: "post",
+                url: "/Experience2/DeleteExperience/"+id,
+                
+                success: function (DeleteFunc) {
+                    loadData();
+                    
+                }
+            });
+
+        });
+    </script>
+}
+
+

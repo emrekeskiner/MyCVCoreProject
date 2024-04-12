@@ -3885,6 +3885,10 @@
       "PackagePath": "staticwebassets\\Template\\images\\avatar.jpg"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\images\\avatar2.jpg",
+      "PackagePath": "staticwebassets\\Template\\images\\avatar2.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\images\\clients\\client1.png",
       "PackagePath": "staticwebassets\\Template\\images\\clients\\client1.png"
     },
@@ -11419,6 +11423,14 @@
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg",
+      "PackagePath": "staticwebassets\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\afb3492c-b601-4a3c-9e9e-87010786b398.jpg",
+      "PackagePath": "staticwebassets\\userimage\\afb3492c-b601-4a3c-9e9e-87010786b398.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.MyCVCore.PresentationLayer.Microsoft.AspNetCore.StaticWebAssets.props",

@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _experienceDal.Delete(entity);
         }
 
+        public List<Experience> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Experience TGetById(int id)
         {
             return _experienceDal.GetById(id);  

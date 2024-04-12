@@ -1,17 +1,31 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
+using MyCVCore.BusinessLayer.Abstract;
 using MyCVCore.BusinessLayer.Concrete;
+using MyCVCore.DataAccessLayer.Abstract;
 using MyCVCore.DataAccessLayer.EntityFramework;
+using MyCVCore.EntityLayer.Concrete;
 
 
 namespace MyCVCore.PresentationLayer.ViewComponents.Dashboard
 {
     public class MessageListDashboard : ViewComponent
     {
-        UserMessageManager userMessageManager = new UserMessageManager(new EfUserMessageDal());
-        public IViewComponentResult Invoke()
+        private readonly IWriterMessageService _writerMessageService;
+        private readonly UserManager<WriterUser> _userManager;
+
+        public MessageListDashboard(IWriterMessageService writerMessageService, UserManager<WriterUser> userManager)
         {
-            var values = userMessageManager.GetUserMessageWithUserService();
-            return View(values);
+            _writerMessageService = writerMessageService;
+            _userManager = userManager;
+        }
+
+        public async Task<IViewComponentResult> InvokeAsync()
+        {
+            var values = await _userManager.FindByNameAsync(User.Identity.Name);
+            var messages = _writerMessageService.GetListReceiverMessage(values.Email).OrderByDescending(x => x.WriterMessageId).Take(4).ToList();
+
+            return View(messages);
         }
     }
 }

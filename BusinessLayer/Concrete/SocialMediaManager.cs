@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _socialMediaDal.Delete(entity);
         }
 
+        public List<SocialMedia> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public SocialMedia TGetById(int id)
         {
             return _socialMediaDal.GetById(id);

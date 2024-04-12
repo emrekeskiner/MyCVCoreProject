@@ -1,28 +1,32 @@
-﻿
-@using EntityLayer.Concrete
-@model List<UserMessage>
+﻿@model List<MyCVCore.EntityLayer.Concrete.WriterMessage>
 <div class="col-md-6 col-xl-4 grid-margin stretch-card">
     <div class="card">
         <div class="card-body">
             <div class="d-flex flex-row justify-content-between">
                 <h4 class="card-title">Mesajlar</h4>
+                <a href="/AdminMessage/AdminReceiverMessage/">
                 <p class="text-muted mb-1 small">Tümünü Gör</p>
+                </a>
             </div>
             <div class="preview-list">
                 @foreach (var item in Model)
                 {
                 <div class="preview-item border-bottom">
                     <div class="preview-thumbnail">
-                        <img src="@item.User.ImageUrl" alt="image" class="rounded-circle" />
+                        
                     </div>
                     <div class="preview-item-content d-flex flex-grow">
+                           
                         <div class="flex-grow">
+                                
                             <div class="d-flex d-md-block d-xl-flex justify-content-between">
-                                <h6 class="preview-subject">@item.User.UserName</h6>
-                                <p class="text-muted text-small">@item.Date</p>
+                                <h6 class="preview-subject">@item.SenderName</h6>
+                                        <p class="text-muted text-small">@(((DateTime)item.Date).ToString("dd.MM.yyyy"))</p>
                             </div>
-                            <p class="text-muted">@item.Content.Substring(0,20)...</p>
-                        </div>
+                                <p class="text-muted">@item.Subject </p><a href="/AdminMessage/AdminMessageDetails/@item.WriterMessageId" class="btn btn-outline-primary">Detay</a>
+                                
+                            </div>
+                            
                     </div>
                 </div>
                 }

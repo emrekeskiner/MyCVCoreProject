@@ -28,6 +28,11 @@ namespace MyCVCore.BusinessLayer.Concrete
             _messageDal.Delete(entity);
         }
 
+        public List<Message> TGetByFilter(string p)
+        {
+            throw new NotImplementedException();
+        }
+
         public Message TGetById(int id)
         {
             return _messageDal.GetById(id);

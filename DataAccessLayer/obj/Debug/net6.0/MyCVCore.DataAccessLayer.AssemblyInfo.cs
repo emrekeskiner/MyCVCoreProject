@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCVCore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5549c82cf14b2c0c244e5272f46d1afe48eefce5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e23755bf931189fff403fc9cf82da4eae93385")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCVCore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCVCore.DataAccessLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

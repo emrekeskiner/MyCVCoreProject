@@ -1,5 +1,6 @@
 ﻿
 using EntityLayer.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.DataAccessLayer.Context;
@@ -12,6 +13,8 @@ using System.Xml.Linq;
 
 namespace Core_Proje.Areas.Writer.Controllers
 {
+    [Authorize(Roles = "Admin")]
+    [Authorize(Roles = "Writer")]
     [Area("Writer")]
     public class DashboardController : Controller
     {
@@ -42,7 +45,7 @@ namespace Core_Proje.Areas.Writer.Controllers
 
             //statistics
             CvContext c = new CvContext();
-            //ViewBag.v1 = c.WriterMessages.Where(x => x.Receiver == values.Email).Count();
+            ViewBag.v1 = c.WriterMessages.Where(x => x.Receiver == values.Email).Count();
             ViewBag.v2 = c.Announcements.Count();
             ViewBag.v3 = c.Users.Count();
             ViewBag.v4 = c.Skills.Count();

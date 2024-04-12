@@ -1,0 +1,26 @@
+﻿@model MyCVCore.EntityLayer.Concrete.Announcement
+@{
+    ViewData["Title"] = "AdminAnnouncementDetails";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+<div class="col-lg-12 grid-margin stretch-card">
+    <div class="card">
+
+        <div class="card-body">
+            <h4 class="card-title">Bildirim Detayı</h4>
+            <div class="table-responsive">
+                <table class="table">
+                    <tbody>
+
+                        <tr><td><b>Başlık: </b>@Model.Title</td></tr>
+                        <tr><td><b>Tarih : </b>@(((DateTime)@Model.Date).ToString("dd.MM.yyyy"))</td></tr>
+                        <tr><td><b>İçerik : </b>@Model.Content</td></tr>
+                        <tr><td></td></tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+

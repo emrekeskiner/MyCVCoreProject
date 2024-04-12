@@ -1,0 +1,12 @@
+﻿@using EntityLayer.Concrete
+@model List<SocialMedia>
+@{
+    ViewData["Title"] = "Deneme";
+    Layout = "~/Views/Shared/_NewAdminLayout.cshtml";
+}
+
+@foreach (var item in Model)
+{
+    <li class="nav-item"><a class="nav-link" href="http://@item.Url" title="@item.Name"><i class="fab @item.Icon"></i><span class="menu-title sr-only">@item.Name</span></a></li>
+}
+

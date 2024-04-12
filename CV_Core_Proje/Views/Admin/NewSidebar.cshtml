@@ -4,7 +4,7 @@
         <a class="sidebar-brand brand-logo-mini" href="../../index.html"><img src="~/Template/corona-free-dark-bootstrap-admin-template-1.0.0/template/assets/images/logo-mini.svg" alt="logo" /></a>
     </div>
     <ul class="nav">
-        <li class="nav-item profile">
+       @*  <li class="nav-item profile">
             <div class="profile-desc">
                 <div class="profile-pic">
                     <div class="count-indicator">
@@ -52,9 +52,9 @@
                     </a>
                 </div>
             </div>
-        </li>
+        </li> *@
         <li class="nav-item nav-category">
-            <span class="nav-link">Navigation</span>
+            <span class="nav-link text-white h4">Menu</span>
         </li>
  
         <li class="nav-item menu-items">
@@ -114,58 +114,56 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" data-toggle="collapse" href="#auth" aria-expanded="false" aria-controls="auth">
+            <a class="nav-link" href="/SocialMedia/AdminSocialMediaList/">
                 <span class="menu-icon">
-                    <i class="mdi mdi-security"></i>
+                    <i class="mdi mdi-contacts"></i>
                 </span>
-                <span class="menu-title">Şifre ve Güvenlik</span>
-                <i class="menu-arrow"></i>
+                <span class="menu-title">Sosyal Medya</span>
             </a>
-            <div class="collapse" id="auth">
-                <ul class="nav flex-column sub-menu">
-                    <li class="nav-item"> <a class="nav-link" href="../../pages/samples/blank-page.html"> Blank Page </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-404.html"> 404 </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="../../pages/samples/error-500.html"> 500 </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="../../pages/samples/login.html"> Login </a></li>
-                    <li class="nav-item"> <a class="nav-link" href="../../pages/samples/register.html"> Register </a></li>
-                </ul>
-            </div>
         </li>
 
         <li class="nav-item menu-items">
-            <a class="nav-link" href="http://www.bootstrapdash.com/demo/corona-free/jquery/documentation/documentation.html">
-                <span class="menu-icon">
-                    <i class="mdi mdi-file-document-box"></i>
-                </span>
-                <span class="menu-title">Dökümanlar</span>
-            </a>
-        </li>
-        <li class="nav-item menu-items">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" href="/Contact/ContactMessageList/">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
                 </span>
-                <span class="menu-title">Projeler</span>
+                <span class="menu-title">İletişim Mesajları</span>
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" href="/SubContent/SubContentMain/">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
                 </span>
-                <span class="menu-title">Mesajlar</span>
+                <span class="menu-title">İletişim Bilgileri</span>
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" href="/AdminMessage/AdminReceiverMessage/">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
                 </span>
-                <span class="menu-title">İletişim</span>
+                <span class="menu-title">Gelen Mesajlar</span>
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" href="/AdminMessage/AdminSenderMessage/">
+                <span class="menu-icon">
+                    <i class="mdi mdi-contacts"></i>
+                </span>
+                <span class="menu-title">Giden Mesajlar</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="/AdminMessage/AdminSendMessage/">
+                <span class="menu-icon">
+                    <i class="mdi mdi-contacts"></i>
+                </span>
+                <span class="menu-title">Yeni Mesaj</span>
+            </a>
+        </li>
+        <li class="nav-item menu-items">
+            <a class="nav-link" href="/Testimonial/AdminTestimonialList/">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
                 </span>
@@ -173,11 +171,11 @@
             </a>
         </li>
         <li class="nav-item menu-items">
-            <a class="nav-link" href="../../pages/icons/mdi.html">
+            <a class="nav-link" target="_blank" href="/Default/Index/">
                 <span class="menu-icon">
                     <i class="mdi mdi-contacts"></i>
                 </span>
-                <span class="menu-title">Öne Çıkan Gönderiler</span>
+                <span class="menu-title">Siteye Git</span>
             </a>
         </li>
     </ul>
