@@ -11425,6 +11425,10 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\0cd550ab-4470-4281-86ca-3bee6d531366.jpg",
+      "PackagePath": "staticwebassets\\userimage\\0cd550ab-4470-4281-86ca-3bee6d531366.jpg"
+    },
+    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg",
       "PackagePath": "staticwebassets\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg"
     },

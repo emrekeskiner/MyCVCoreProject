@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCvCore.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49e23755bf931189fff403fc9cf82da4eae93385")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0bac02c6b13b663ed6518c469df33881d4eec71d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCvCore.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCvCore.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,77 @@
+﻿@using EntityLayer.Concrete
+@model List<Portfolio>
+
+<div class="row ">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Proje Listesi</h4>
+                
+                <p class="card-description"></p>
+                <div class="table-responsive">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th>Proje Adresi</th>
+                                <th>Proje Adı</th>
+                                <th>Oranı</th>
+                                <th>Maliyeti</th>
+                                <th>Platform</th>
+                                <th>Durum</th>
+                                <th>Detay</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+
+
+                                <tr>
+                                    <td class="py-1">
+                                        <a href="@item.ProjectUrl"><img src="@item.ImageUrl" alt="image"></a>
+                                    </td>
+                                    <td> @item.Name </td>
+                                    <td>
+                                        <div class="progress">
+                                            <div class="progress-bar bg-warning" role="progressbar" style="width: @item.Value%" aria-valuenow="@item.Value" aria-valuemin="0" aria-valuemax="100"></div>
+                                        </div>
+                                    </td>
+                                    <td> $ @item.Price </td>
+                                    <td> @item.Platform </td>
+
+                                    <td>
+                                        @if (item.Status == true)
+                                        {
+                                            <div class="form-check form-check-success">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-input" checked="checked" />
+                                                    Tamamlandı<i class="input-helper"></i>
+                                                </label>
+                                            </div>
+                                        }
+                                        else
+                                        {
+                                            <div class="form-check form-check-danger">
+                                                <label class="form-check-label">
+                                                    <input type="radio" class="form-check-input" checked="checked" />
+                                                    Devam Ediyor<i class="input-helper"></i>
+                                                </label>
+                                            </div>
+
+                                        }
+
+
+                                    </td>
+                                    <td scope="row"><a href="/Portfolio/EditPortfolio/@item.PortfolioId" class="btn btn-outline-info"><i class="mdi mdi-pencil btn-icon-prepend"></i>Detay</a></td>
+                                </tr>
+
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "WaItJNWFtO3wt1oubj3rCfIx5H1AwcRFqRiD8vTIW0I=",
+  "Hash": "BZQD9u7P0wll/qOB53JNqXq8xqpPjm8u+DEbgSYkeFk=",
   "Source": "MyCVCore.PresentationLayer",
   "BasePath": "_content/MyCVCore.PresentationLayer",
   "Mode": "Default",
@@ -54298,6 +54298,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Template\\skydash\\vendors\\x-editable\\bootstrap-editable.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\0cd550ab-4470-4281-86ca-3bee6d531366.jpg",
+      "SourceId": "MyCVCore.PresentationLayer",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\",
+      "BasePath": "_content/MyCVCore.PresentationLayer",
+      "RelativePath": "userimage/0cd550ab-4470-4281-86ca-3bee6d531366.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\userimage\\0cd550ab-4470-4281-86ca-3bee6d531366.jpg"
     },
     {
       "Identity": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\userimage\\74568fd4-9d55-4139-814f-93676264a1a2.jpg",
