@@ -1,7 +1,7 @@
 ﻿
 <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
     <div class="bg-light my-2 p-3 pt-2">
-        <form method="POST" action="/Default/SendMessage/">
+        
             <div class="form-group my-2">
                 <label for="name" class="form-label fw-bolder">Adınız</label>
                 <input class="form-control" type="text" id="name" name="Name" required>
@@ -14,7 +14,38 @@
                 <label for="message" class="form-label fw-bolder">Mesajınız</label>
                 <textarea class="form-control" style="resize: none;" id="message" name="Content" rows="4" required></textarea>
             </div>
-            <button class="btn btn-primary mt-2" type="submit">Gönder</button>
-        </form>
+            <button type="button" class="btn btn-primary mt-2" id="sendmessage">Gönder</button>
+        
     </div>
 </div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script>
+        $("#sendmessage").click(function () {
+            let values = {
+                Name: $("#name").val(),
+                Mail: $("#email").val(),
+                Content: $("#message").val()
+            };
+
+
+            $.ajax({
+                type: "Post",
+                url: "/Default/SendMessage/",
+                data: values,
+                success: function (AddFunc) {
+                
+                $("#sendmessage").hide();
+                  
+                    Swal.fire(
+                        'Mesaj İletildi',
+                        '',
+                        'success'
+                    );
+                console.log(AddFunc);
+                   
+                }
+            });
+        });
+    </script>

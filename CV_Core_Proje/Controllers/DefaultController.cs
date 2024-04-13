@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using MyCVCore.BusinessLayer.Concrete;
 using MyCVCore.DataAccessLayer.EntityFramework;
+using Newtonsoft.Json;
 
 namespace MyCVCore.PresentationLayer.Controllers
 {
@@ -25,22 +26,27 @@ namespace MyCVCore.PresentationLayer.Controllers
 
             return PartialView();
         }
-        [HttpGet]
-        public PartialViewResult SendMessage()
-        {
+        //[HttpGet]
+        //public PartialViewResult SendMessage()
+        //{
 
-            return PartialView();
-        }
+        //    return PartialView();
+        //}
         [HttpPost]
-        public PartialViewResult SendMessage(Message message)
+        public IActionResult SendMessage(Message message)
         {
             MessageManager messageManager = new MessageManager(new EfMessageDal());
+            var values = JsonConvert.SerializeObject(message);
+            if (values != null)
+            {
+             message.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
+                        message.Status = true;
+                        messageManager.TAdd(message);
+            
+                        return Json(message);
+            }
+            return Json(null);
 
-            message.Date = Convert.ToDateTime(DateTime.Now.ToShortDateString());
-            message.Status = true;
-            messageManager.TAdd(message);
-
-            return PartialView();
         }
     }
 }

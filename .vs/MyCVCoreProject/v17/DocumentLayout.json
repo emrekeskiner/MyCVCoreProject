@@ -1,71 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\cv_core_web\\cv_core_proje\\views\\errorpage\\error404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|solutionrelative:cv_core_proje\\views\\errorpage\\error404.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\cv_core_web\\cv_core_proje\\controllers\\errorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|solutionrelative:cv_core_proje\\controllers\\errorpagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\cv_core_web\\cv_core_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|solutionrelative:cv_core_proje\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Error404.cshtml",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Views\\ErrorPage\\Error404.cshtml",
-              "RelativeDocumentMoniker": "CV_Core_Proje\\Views\\ErrorPage\\Error404.cshtml",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Views\\ErrorPage\\Error404.cshtml",
-              "RelativeToolTip": "CV_Core_Proje\\Views\\ErrorPage\\Error404.cshtml",
-              "ViewState": "AQIAABAAAAAAAAAAAAAqwCIAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-13T15:35:44.424Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ErrorPageController.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Controllers\\ErrorPageController.cs",
-              "RelativeDocumentMoniker": "CV_Core_Proje\\Controllers\\ErrorPageController.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Controllers\\ErrorPageController.cs",
-              "RelativeToolTip": "CV_Core_Proje\\Controllers\\ErrorPageController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAeAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:34:57.185Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Program.cs",
-              "RelativeDocumentMoniker": "CV_Core_Proje\\Program.cs",
-              "ToolTip": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Program.cs",
-              "RelativeToolTip": "CV_Core_Proje\\Program.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAAAEEAAAA5AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T15:30:31.139Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
