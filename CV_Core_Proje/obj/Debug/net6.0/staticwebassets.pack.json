@@ -9,24 +9,12 @@
       "PackagePath": "staticwebassets\\Template\\LICENSE-free.txt"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\README.txt",
-      "PackagePath": "staticwebassets\\Template\\README.txt"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\.gitignore",
       "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\.gitignore"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\CHANGELOG.md",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\CHANGELOG.md"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\LICENSE",
       "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\README.md",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\README.md"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\documentation\\documentation.html",
@@ -3645,64 +3633,12 @@
       "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\gulpfile.js"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\index.html"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\package-lock.json",
       "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\package-lock.json"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\package.json",
       "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\package.json"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\charts\\chartjs.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\charts\\chartjs.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\forms\\basic_elements.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\forms\\basic_elements.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\icons\\mdi.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\icons\\mdi.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\blank-page.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\blank-page.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\error-404.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\error-404.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\error-500.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\error-500.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\login.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\login.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\register.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\samples\\register.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\tables\\basic-table.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\tables\\basic-table.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\buttons.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\buttons.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\dropdowns.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\dropdowns.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\typography.html",
-      "PackagePath": "staticwebassets\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\pages\\ui-features\\typography.html"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\corona-free-dark-bootstrap-admin-template-1.0.0\\template\\partials\\_footer.html",
@@ -4089,10 +4025,6 @@
       "PackagePath": "staticwebassets\\Template\\images\\wave-bg.svg"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\index.html",
-      "PackagePath": "staticwebassets\\Template\\index.html"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\scripts\\BigPicture.min.js",
       "PackagePath": "staticwebassets\\Template\\scripts\\BigPicture.min.js"
     },
@@ -4137,24 +4069,12 @@
       "PackagePath": "staticwebassets\\Template\\skydash\\CHANGELOG.md"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\Gift Coupon - Skydash.jpg",
-      "PackagePath": "staticwebassets\\Template\\skydash\\Gift Coupon - Skydash.jpg"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\README.md",
-      "PackagePath": "staticwebassets\\Template\\skydash\\README.md"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\css\\maps\\vertical-layout-light\\style.css.map",
       "PackagePath": "staticwebassets\\Template\\skydash\\css\\maps\\vertical-layout-light\\style.css.map"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\css\\vertical-layout-light\\style.css",
       "PackagePath": "staticwebassets\\Template\\skydash\\css\\vertical-layout-light\\style.css"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\docs\\documentation.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\docs\\documentation.html"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\docs\\documentation.js",
@@ -5069,10 +4989,6 @@
       "PackagePath": "staticwebassets\\Template\\skydash\\images\\sprites\\yellow.png"
     },
     {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\index.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\index.html"
-    },
-    {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\js\\Chart.roundedBarCharts.js",
       "PackagePath": "staticwebassets\\Template\\skydash\\js\\Chart.roundedBarCharts.js"
     },
@@ -5363,78 +5279,6 @@
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\js\\x-editable.js",
       "PackagePath": "staticwebassets\\Template\\skydash\\js\\x-editable.js"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\package-lock.json",
-      "PackagePath": "staticwebassets\\Template\\skydash\\package-lock.json"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\package.json",
-      "PackagePath": "staticwebassets\\Template\\skydash\\package.json"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\charts\\chartjs.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\charts\\chartjs.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\documentation\\documentation.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\documentation\\documentation.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\forms\\basic_elements.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\forms\\basic_elements.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\icons\\mdi.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\icons\\mdi.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\samples\\error-404.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\samples\\error-404.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\samples\\error-500.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\samples\\error-500.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\samples\\login.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\samples\\login.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\samples\\register.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\samples\\register.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\tables\\basic-table.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\tables\\basic-table.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\ui-features\\buttons.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\ui-features\\buttons.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\ui-features\\dropdowns.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\ui-features\\dropdowns.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\pages\\ui-features\\typography.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\pages\\ui-features\\typography.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\partials\\_footer.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\partials\\_footer.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\partials\\_navbar.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\partials\\_navbar.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\partials\\_settings-panel.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\partials\\_settings-panel.html"
-    },
-    {
-      "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\partials\\_sidebar.html",
-      "PackagePath": "staticwebassets\\Template\\skydash\\partials\\_sidebar.html"
     },
     {
       "Id": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\wwwroot\\Template\\skydash\\preview.jpg",
