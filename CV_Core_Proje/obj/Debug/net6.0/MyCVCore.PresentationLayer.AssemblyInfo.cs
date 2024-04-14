@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MyCVCore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e66864b253e02758d195e5f86ff525d88fb1edf1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+be227955231950d0842a966ea275cc3bf78be3be")]
 [assembly: System.Reflection.AssemblyProductAttribute("MyCVCore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MyCVCore.PresentationLayer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
