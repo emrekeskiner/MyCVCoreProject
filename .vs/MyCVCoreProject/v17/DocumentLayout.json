@@ -1,12 +1,37 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|c:\\users\\asus\\source\\repos\\cv_core_web\\cv_core_proje\\areas\\writer\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6836521-647F-4327-B60F-4D593F70B5D5}|CV_Core_Proje\\MyCVCore.PresentationLayer.csproj|solutionrelative:cv_core_proje\\areas\\writer\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Areas\\Writer\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "CV_Core_Proje\\Areas\\Writer\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\asus\\source\\repos\\CV_Core_Web\\CV_Core_Proje\\Areas\\Writer\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "CV_Core_Proje\\Areas\\Writer\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACgAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-14T07:51:07.554Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
