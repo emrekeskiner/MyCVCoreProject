@@ -37,7 +37,7 @@ namespace Core_Proje.Areas.Writer.Controllers
             ViewBag.v5 = document.Descendants("temperature").ElementAt(0).Attribute("value").Value;
             ViewBag.v6 = document.Descendants("city").ElementAt(0).Attribute("name").Value;
             //Kur Api
-            DateTime tarih = DateTime.Now;
+            DateTime tarih = DateTime.Now.AddDays(-10);
             string connectionKur = "https://evds2.tcmb.gov.tr/service/evds/series=TP.DK.USD.A-TP.DK.EUR.A-TP.DK.CHF.A-TP.DK.GBP.A-TP.DK.JPY.A&startDate="+ tarih.ToString("dd-MM-yyyy")+ "&endDate="+ tarih.ToString("dd-MM-yyyy") + "&type=xml&key=M5lnbvjJb3";
             XDocument document1 = XDocument.Load(connectionKur);
             ViewBag.kurDolar = document1.Descendants("TP_DK_USD_A").ElementAt(0).Value;
